@@ -1,0 +1,61 @@
+# -----------------------
+# BACKEND (Python / API)
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Database files
+*.db
+*.sqlite3
+
+# -----------------------
+# FRONTEND (Next.js)
+# -----------------------
+node_modules/
+.pnp
+.pnp.js
+.next/
+out/
+build/
+
+# testing
+coverage/
+
+# misc
+.DS_Store
+*.pem
+.env*
+.vercel
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+/* 
+  Custom Fireflies Clone Theme Variables 
+  We define some base theme variables here to ensure we match the design exact!
+*/
+@theme {
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  
+  --color-bg-main: #f8f9fc;
+  --color-bg-sidebar: #ffffff;
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #9ca3af;
+  
+  --color-border-light: #e5e7eb;
+}
+
+@layer base {
+  :root {
+    --background: #f8f9fc;
+    --foreground: #1f2937;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
