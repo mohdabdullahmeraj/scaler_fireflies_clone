@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { X, Upload, FileText, Loader2 } from 'lucide-react';
 import { fetchApi } from '@/lib/apiClient';
 import { useQueryClient } from '@tanstack/react-query';
+import { Meeting } from '@/types';
 
 interface UploadModalProps {
   isOpen: boolean;
@@ -29,7 +30,7 @@ export function UploadModal({ isOpen, onClose }: UploadModalProps) {
 
     try {
       // 1. Create meeting
-      const meetingResponse = await fetchApi('/meetings/', {
+      const meetingResponse = await fetchApi<Meeting>('/meetings/', {
         method: 'POST',
         body: JSON.stringify({
           title: title,
