@@ -34,7 +34,7 @@ export interface Meeting {
 }
 
 export interface SearchResult {
-  meeting_id: int;
+  meeting_id: number;
   title: string;
   snippet: string;
 }

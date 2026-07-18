@@ -50,7 +50,7 @@ export function UploadModal({ isOpen, onClose }: UploadModalProps) {
         await fetchApi(`/meetings/${meetingResponse.id}/transcript/`, {
           method: 'POST',
           body: formData,
-        }, true);
+        });
       }
 
       // Refresh meetings list
