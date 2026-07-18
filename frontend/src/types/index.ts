@@ -23,6 +23,8 @@ export interface Meeting {
   audio_url: string | null;
   video_url: string | null;
   user_id: number;
+  privacy?: string;
+  captured_from?: string;
   created_at: string;
   updated_at: string;
   participants: Participant[];
