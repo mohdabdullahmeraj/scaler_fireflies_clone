@@ -6,6 +6,12 @@ It enables users to manage meetings, interact with rich transcripts, generate AI
 
 ---
 
+## Live Deployment Links
+- **Frontend (App):** [https://fireflies-frontend.onrender.com/](https://fireflies-frontend.onrender.com/)
+- **Backend (API):** [https://fireflies-backend-etqu.onrender.com/](https://fireflies-backend-etqu.onrender.com/)
+
+---
+
 ## Key Features & Functionality
 *This section highlights the core functionality requirements of the evaluation.*
 
